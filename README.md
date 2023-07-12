@@ -5,9 +5,9 @@
 
 this project use web3utils publish package,that my project too. this merkletree result is same result whit solidity merkle result. 
 
-if that can help please start this project and web3utils project.
+if that can help please start this project and web3utils project.if
 
-web3utils links:https://github.com/CodeTrainerMan/Web3Utils
+web3utils links: https://github.com/CodeTrainerMan/Web3Utils
 
 #start:  add jar in pom.xml
 
@@ -32,3 +32,5 @@ web3utils links:https://github.com/CodeTrainerMan/Web3Utils
         String root = merkleTree4Solidity.getRoot();
         boolean verify = merkleTree4Solidity.verify(proof, root, packedKeccak256("0xfc3921042358aC9a4092C4506bD20C6d9744DA47",981));
         System.out.println(list);
+
+if you need other help add me discord: william_liu
